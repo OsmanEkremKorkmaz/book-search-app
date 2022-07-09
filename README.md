@@ -2,7 +2,7 @@
 
 [Live](https://book-searching-app.netlify.app)
 
-![image](https://user-images.githubusercontent.com/96390357/178112374-cfa0efa2-eb76-4adb-bef9-cacea6ba3de9.png)
+![image](https://user-images.githubusercontent.com/96390357/178112403-4aed179b-a866-4655-a97f-702c13082a5f.png)
 
 ## Starting Project
 
