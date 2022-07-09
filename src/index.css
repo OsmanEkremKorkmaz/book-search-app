@@ -1,13 +1,110 @@
-body {
+* {
   margin: 0;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1;
+  color : #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  background-color: #fff;
+  padding: 20px 8vw;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: 20px;
+  padding: 10px 20px;
+  width: 300px;
+  outline: 0;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+  width: 200px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.detail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #44444470;
+}
+
+.book-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+button {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: 40px;
+  padding: auto;
+  width: 40px;
+  outline: 0;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+a {
+  color: #333;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
 }
